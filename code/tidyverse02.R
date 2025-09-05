@@ -1,8 +1,8 @@
-install.packages("tidyverse")
+#install.packages("tidyverse")
 library(tidyverse)
 
 library(swirl)
-install_course_github("sysilviakim", "swirl-tidy")
+#install_course_github("sysilviakim", "swirl-tidy")
 swirl()
 
 Bailey
