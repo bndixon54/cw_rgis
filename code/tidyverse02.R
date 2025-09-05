@@ -1,11 +1,11 @@
 #install.packages("tidyverse")
-library(tidyverse)
+#library(tidyverse)
 
-library(swirl)
+#library(swirl)
 #install_course_github("sysilviakim", "swirl-tidy")
-swirl()
+#swirl()
 
-Bailey
+#Bailey
 
 ##The question that kept getting me into a loop if I answered it wrong: 
 ##(I went into github to check what the correct answer was and it let me continue with no issue after this)

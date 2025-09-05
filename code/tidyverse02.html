@@ -357,18 +357,31 @@ display: none;
 </div>
 
 
-<pre class="r"><code>library(tidyverse)</code></pre>
-<pre><code>## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-## ✔ dplyr     1.1.4     ✔ readr     2.1.5
-## ✔ forcats   1.0.0     ✔ stringr   1.5.1
-## ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
-## ✔ lubridate 1.9.4     ✔ tidyr     1.3.1
-## ✔ purrr     1.0.4     
-## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-## ✖ dplyr::filter() masks stats::filter()
-## ✖ dplyr::lag()    masks stats::lag()
-## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
-<pre class="r"><code>#this folder is empty because I was working in console the whole time to do the swirl modules </code></pre>
+<pre class="r"><code>#install.packages(&quot;tidyverse&quot;)
+#library(tidyverse)
+
+#library(swirl)
+#install_course_github(&quot;sysilviakim&quot;, &quot;swirl-tidy&quot;)
+#swirl()
+
+#Bailey
+
+##The question that kept getting me into a loop if I answered it wrong: 
+##(I went into github to check what the correct answer was and it let me continue with no issue after this)
+#Check that there are indeed only five different cut values using {table} on the `cut` column of either dataset.
+
+#Answer: table(diamonds$cut)
+
+
+#Using the same principle, create from &quot;diamonds&quot; (without using &quot;diamonds_grouped&quot;) a summary dataframe that produces the average price by `clarity`. Notice that we are no longer interested in average price by `cut`. Name this summarized value to be `mean_price` as before.
+
+#Answer:  diamonds %&gt;%
+#           group_by(clarity) %&gt;%
+#           summarize(mean_price = mean(price))
+
+#Tip: once the group-level operations/calculations have been completed, make sure to {ungroup} your dataframes. Sometimes, you may forget that your dataframe is still grouped, creating errors in your calculations.
+
+###Okay, I was able to finish this out without coming across the same issue. This &quot;lesson&quot; was definitely the trickiest so far. </code></pre>
 
 
 
