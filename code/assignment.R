@@ -10,7 +10,7 @@ pacman::p_load(tidyverse,
 # Q1. Read the dataset "data_finsync_nc.csv" from the data subdirectory 
 # and assign it to an object named `df_fish`.
 # Reference: Chapter 2
-df_fish <- read_csv(file = here("data/data_finsync_nc.csv"))
+df_fish <- read_csv(here("data/data_finsync_nc.csv"))
 
 
 # Q2. Using `df_fish`, create a dataframe with unique site name (`site_id`), 
@@ -28,7 +28,7 @@ print(df_site)
 # Save the resulting object as `sf_site`.
 # Reference: Chapter 2
 sf_site <- df_fish %>% 
-  distinct(site_id, lon, lat) %>% # get unique combinations of longitude & latitude
+  distinct(site_id, lon, lat) %>% 
   st_as_sf(coords = c("lon", "lat"),
            crs = 4326)
 print(sf_site)
@@ -37,7 +37,7 @@ print(sf_site)
 # Q4. Read "sf_nc_county.rds" from the data subdirectory using the `readRDS()` function.
 # Assign the result to `sf_nc_county`.
 # Reference: Chapter 3
-sf_nc_county <- readRDS(file = here("data/sf_nc_county.rds"))
+sf_nc_county <- readRDS(here("data/sf_nc_county.rds"))
 
 
 # Q5. Using the `st_join()` function, associate the county column from `sf_nc_county`
@@ -57,32 +57,31 @@ df_site_w_county <- as_tibble(sf_site_w_county)
 # Assign the result to `v_s1`. (Hint: use group_by(), summarize(), filter(), and pull()).
 # Confirm the result contains 49 counties with `length(v_s1)`.
 # Reference: https://aterui.github.io/biostats/data-manipulation.html#group-operation
-
-#v_s1 <- df_site_w_county %>%
-#        group_by(county) %>%
-#        summarize() %>%
-#        filter(df_site_w_county, ) %>%
-#        pull()
-
-#not sure how to do this because the dataframe doesnt have a column that tells me how many survey sites are present, which I think I need in order to use the filter function? 
-
-
+v_s1 <- df_site_w_county %>%
+  group_by(county) %>%
+  summarize(n = n()) %>%
+  filter(n > 0) %>%
+  pull()
 
 
 # Q8. Using `v_s1`, subset the county polygons in `sf_nc_county` 
 # to include only counties with at least one site.
 # Assign the result to `sf_county_s1`.
 # Reference: https://aterui.github.io/biostats/data-manipulation.html#row-manipulation
+sf_county_s1 <- sf_nc_county %>%
+  group_by(county) %>%
+  summarize(n = n()) %>%
+  filter(n > 0) %>%
+  pull()
 
-
-
-
+#?????????
 
 # Q9. Display `sf_county_s1` along with all sampling sites (`sf_site`) 
 # on a single map using `ggplot()` and `geom_sf()`.
 # Reference: Chapter 3
-
-
+ggplot() +
+  geom_sf(data = sf_county_s1) +
+  geom_sf(data = sf_site)
 
 
 
@@ -91,3 +90,5 @@ df_site_w_county <- as_tibble(sf_site_w_county)
 # Identify the largest county and report its area in [m^2] (should be 2,289,719,021).
 # NOTE: Use a projected CRS (UTM Zone 17N) for the calculation of area.
 # Reference: Chapter 2 & 3
+st_area(sf_county_s1)
+

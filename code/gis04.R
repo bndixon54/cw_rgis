@@ -1,21 +1,14 @@
 #October 9 2025: Raster Data I
 
-if (!require(pacman)) install.packages("pacman")
+# Load necessary libraries
+library(tidyverse)
+library(terra)
+library(tidyterra)
+library(mapview)
+library(stars)
+library(here)
 
-pacman::p_load(tidyverse,
-               terra,
-               tidyterra,
-               mapview,
-               stars,
-               here)
-
-(spr_ex <- rast("data/spr_example.tif"))
-
-
-#export raster object
-writeRaster(spr_ex,
-            filename = "data/spr_elev.tif",
-            overwrite = TRUE)
+(spr_ex <- rast(here("data/spr_example.tif")))
 
 #visualize raster file
 ggplot() +
@@ -41,7 +34,8 @@ na.omit(v_elev) %>%
   mean()
 
 #terra::extract() function allows you to obtain values from specific locations.
-extract(spr_ex, y = cbind(6.0000, 50.0000)) #longitude and latitude
+xy <- cbind(6.0000, 50.0000)
+extract(spr_ex, xy)
 
 #to extract at multiple locations, supply dataframe for second argument
 (df_point <- tibble(lon = c(6, 5.9), 
@@ -55,7 +49,7 @@ extract(spr_ex,
 #Discrete raster data (also called categorical raster data) represent classes or categories with distinct boundaries. Each cell stores an integer code that corresponds to a specific class, such as land cover type (e.g., forest, water, urban) or vegetation zone.
 
 #load forest raster
-spr_for <- rast("data/spr_forest_nc.tif")
+spr_for <- rast(here("data/spr_forest_nc.tif"))
 
 #visualize
 ggplot() +
@@ -69,7 +63,7 @@ mean(v_binary)
 
 #Types of discrete data - code values with multiple categories
 #often used for land cover classification
-spr_land <- rast("data/spr_land_reclass.tif")
+spr_land <- rast(here("data/spr_land_reclass.tif"))
 
 #examine code values
 unique(spr_land) #you have to consult the code table to interperet these values
@@ -95,21 +89,19 @@ mean(v_bin)
 
 #Exercise 
 
-spr_prec_ncne <- rast("data/spr_prec_ncne.tif")
+spr_prec_ncne <- rast(here("data/spr_prec_ncne.tif"))
 #Number of rows and columns: 162 rows, 532 columns
 #Resolution: 0.008333333
 #Spatial extent:  -79.89181, -75.45847, 35.24153, 36.59153 
 #Coordinate Reference System: lon/lat WGS 84 (EPSG:4326) 
 #Minimum and maximum precipitation values: max: 1501.5, min: 1063.1
 
-#edited- dont know how some of my values were so off the first time!
-
 #visualize raster file
 ggplot() +
   geom_spatraster(data = spr_prec_ncne)
 
 #extract values
-sf_site <- readRDS("data/sf_finsync_nc.rds")
+sf_site <- readRDS(here("data/sf_finsync_nc.rds"))
 df_xy <- st_coordinates(sf_site)
 df_land <- extract(spr_land, df_xy)
 
@@ -127,3 +119,4 @@ spr_urban <- classify(spr_land,
 
 values(spr_urban) %>% 
   mean()
+
