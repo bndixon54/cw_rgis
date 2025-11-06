@@ -69,12 +69,8 @@ v_s1 <- df_site_w_county %>%
 # Assign the result to `sf_county_s1`.
 # Reference: https://aterui.github.io/biostats/data-manipulation.html#row-manipulation
 sf_county_s1 <- sf_nc_county %>%
-  group_by(county) %>%
-  summarize(n = n()) %>%
-  filter(n > 0) %>%
-  pull()
+ filter(county %in% v_s1)
 
-#?????????
 
 # Q9. Display `sf_county_s1` along with all sampling sites (`sf_site`) 
 # on a single map using `ggplot()` and `geom_sf()`.
