@@ -13,7 +13,8 @@ p_load(tidyverse,
        sf,
        terra,
        exactextractr,
-       tidyterra)
+       tidyterra,
+       here)
 
 # To answer the following questions, use the data below:
 df_site <- read_csv("data/data_finsync_nc.csv") %>% 
@@ -70,20 +71,17 @@ dist_site_four <- sf_site_four %>%
 
 print(dist_site_four)
 
-st_distance(dist_site_four)
+pairwise <- st_distance(dist_site_four)
 
 #Then, find the maximum distance among all site pairs.
-arrange(sf_site_four, dist_site_four)
+max(pairwise)
 
-# ENTER YOUR ANSWER HERE: xmin: -80.35989 ymin: 35.65917 xmax: -79.59087 ymax: 36.1725
-
+# ENTER YOUR ANSWER HERE: 71724.58
 
 # raster data analysis ----------------------------------------------------
 
 # Q6. 
-# The raster file "spr_land_reclass.tif" in the "data" folder 
-#   contains reclassified land-cover data, 
-#   where pixel values represent land-cover types as follows:
+# The raster file "spr_land_reclass.tif" in the "data" folder contains reclassified land-cover data, where pixel values represent land-cover types as follows:
 #   1001 = forest
 #   1010 = crop
 #   1100 = urban
@@ -91,10 +89,13 @@ arrange(sf_site_four, dist_site_four)
 # 
 # Load this raster as `spr_land` and display the unique land-cover codes it contains.
 spr_land <- rast(here("data/spr_land_reclass.tif"))
-#1001 = forest
-#1010 = crop
-#1100 = urban
-#0 = other
+
+unique(spr_land)
+# code
+# 1    0
+# 2 1001
+# 3 1010
+# 4 1100
 
 # Q7. 
 # Reclassify the raster `spr_land` to create a new raster object `spr_crop` that highlights only cropland areas. 
@@ -148,20 +149,13 @@ p_crop <- mean(v_binary)
 spr_tmp_nc <- rast(here("data/spr_tmp_nc.tif"))
 
 sf_site_tmp <- extract(x = spr_tmp_nc,
-                         y = sf_site,
-                         bind = TRUE) %>% 
-    st_as_sf()
+                       y = sf_site,
+                       bind = TRUE) %>% 
+  st_as_sf()
 
-
-ggplot() +
-  geom_sf(data = spr_tmp_nc,      
-          fill = "grey") + 
-  geom_sf(data = sf_site_tmp,       
-          aes(color = temperature)) +
-  scale_color_viridis_c() +         
-  theme_bw()    
-
-# ENTER YOUR ANSWER HERE: I am getting an error? 
+temp_16 <- filter(sf_site_tmp, temperature > 16)
+  
+# ENTER YOUR ANSWER HERE: 24 sites
 
 
 # Q12. Create 3-km buffers around each site in `sf_site_four` (see Q3). 
@@ -169,7 +163,7 @@ ggplot() +
 sf_four_proj <- sf_site_four %>%
   st_transform(crs = 32617)
 
-sf_buff_proj <- sf_site_four_proj %>%
+sf_buff_proj <- sf_four_proj %>%
   st_buffer(dist = 3000)
 
 sf_site_buff <- sf_buff_proj %>%
@@ -179,19 +173,17 @@ sf_site_buff <- sf_buff_proj %>%
 #Use an appropriate re-sampling method in light of the raster data type.
 spr_crop_proj <- project(x = spr_crop_four,
                                y = "EPSG:32617",
-                               method = "bilinear")
+                               method = "near")
 
 # Q14. Create a map displaying the projected cropland raster (`spr_crop_proj`) 
 # with 3-km site buffers (`sf_buff_proj`) overlaid.
 ggplot() +
-  geom_sf(data = spr_crop_proj,
+  geom_spatraster(data = spr_crop_proj,
           fill = "grey") +
   geom_sf(data = sf_buff_proj,
           fill = "salmon") +
   geom_sf(data = sf_four_proj) +
   theme_bw()
-
-#nothing I try is making this work!!!! 
 
 
 # Q15. Calculate the proportion of cropland within each 3-km site buffer. 
@@ -203,13 +195,11 @@ df_crop_frac <-exact_extract(x = spr_crop_proj,
                              append_cols = TRUE,
                              progress = FALSE) %>%
   as_tibble() %>%
-  rename(temperature = mean)
+  rename(crop = mean)
 
-
-sf_site_tmp_buff <- sf_four_proj %>% 
-    left_join(sf_buff_proj,
-              by = "site_id")
-
-#I think this is how you would do this, approximately. 
+highest <- df_crop_frac %>%
+  arrange(desc(cropland))
+#I am still a little confused with this one. I know the fucntion above wont work on the df_crop_frac object because the only columns in that dataframe are site_id, county, and temperature. Though I would expect the cropland and buffer should be apparent if everything else I've done so far is correct? 
+#if I enter "temperature" after arrange, it works just fine
 
 
