@@ -38,47 +38,31 @@ clean_data <- clean_data %>%
 unique(clean_data$locality) #49 unique localities
 unique(clean_data$species) #24 unique species
 
+
 #manipulate and get both presence and absence
-df_nc_spec <- clean_data %>% 
-  pivot_wider(id_cols = c(locality, lon, lat),
-              names_from = species,
-              values_from = presence, 
-              values_fill = 0) #changes NAs into 0
-#If i only use locality in id_cols(), the function doesnt work. However, it pulls too much data if i also include the lon/lat values, because those are slightly different even within the same locality. I think this is going to complicate things down the line...
-
-
-# fix ---------------------------------------------------------------------
-#suggestion: collapse coordinates by locality
-clean_data_new <- clean_data %>%
+#take average lat/lon at each locality
+clean_data <- clean_data %>%
   group_by(locality) %>%
-  mutate(
-    lon = mean(lon, na.rm = TRUE),
-    lat = mean(lat, na.rm = TRUE)
-  ) %>%
+  mutate(lon = mean(lon, na.rm = TRUE),
+         lat = mean(lat, na.rm = TRUE)) %>%
   ungroup()
 
-unique(clean_data_new$lat) #49 unique latitueds lines up with 40 unique localities, so this should work to clean things up...
-
-
 #remove any duplicates for the sake of just looking at presence vs absence 
-clean_data_unique <- clean_data_new %>%
+clean_data <- clean_data %>%
   distinct(locality, lon, lat, species, .keep_all = TRUE)
 
-
-#NOW we can pivot wider
+#NOW we can pivot wider to get presence/absence of all species
 df_nc_spec <- clean_data_unique %>% 
-  pivot_wider(
-    id_cols = c(locality, lon, lat),
-    names_from = species,
-    values_from = presence,
-    values_fill = 0
-  )
+  pivot_wider(id_cols = c(locality, lon, lat),
+              names_from = species,
+              values_from = presence,
+              values_fill = 0)
 
-#now this finally lines up with my locality/species info... 
 
-#--------------------------------------------------------------------------
 
-#Myodes gapperi occurrence data
+
+#Myodes gapperi occurrence data -------------------------------------------------
+
 df_gapperi <- df_nc_spec %>%
   select(locality,
          lon,
@@ -86,55 +70,61 @@ df_gapperi <- df_nc_spec %>%
          "Myodes gapperi") %>% 
   rename(y = "Myodes gapperi")
 
-
 #georeference data
 sf_gapperi <- st_as_sf(df_gapperi,
                        coords = c("lon", "lat"),
                        crs = 4326) 
 
 print(sf_gapperi)
-#Bounding: xmin: -83.4631 ymin: 35.02472 xmax: -78.99502 ymax: 36.17197
+#bounding: xmin: -83.4631 ymin: 35.02472 xmax: -78.99502 ymax: 36.17197
 
-
-#temperature raster
+#read temperature raster for north carolina
 tmp_nc <- rast("data/spr_tmp_nc.tif")
 
-## extract values at the survey sites
-(sf_tmp <- extract(x = tmp_nc,
-                   y = sf_gapperi,
-                   bind = TRUE) %>% 
-    st_as_sf())
+#extract values at the survey sites
+sf_tmp_gap <- extract(x = tmp_nc,
+                  y = sf_gapperi,
+                  bind = TRUE) %>% 
+  st_as_sf()
 
+#county polygons for map
+sf_nc_county <- readRDS("data/sf_nc_county.rds")
 
-#for map
-(sf_nc_county <- readRDS("data/sf_nc_county.rds"))
-
-#mapping raster layer with temperature, put survey sites on top
-map <- ggplot() +
+#mapping raster layer with temperature, plot survey sites on top
+gapperi_map <- ggplot() +
   geom_spatraster(data = tmp_nc) + #spatial info
   geom_sf(data = sf_nc_county,
           alpha = .25) +
-  geom_sf(data = sf_gapperi,    
-          aes(color = factor(y))) + 
+  geom_sf(data = sf_tmp_gap,    
+          aes(color = factor(y)),
+          size = 0.5) + 
   scale_color_manual(values = c("#BF4102", "#07ACE3")) + 
   scale_fill_viridis_c(option = "cividis") +   
-  theme_bw()   
+  theme_classic()   
 
-print(map)
-
-###How do I change the size of my points on this map? I want them smaller but adding "size = 0.05" makes them way bigger
+print(gapperi_map)
 
 
+# Analysis of gapperi data --------------------------------------------------------
+#convert
+df_tmp_gap <- as_tibble(sf_tmp_gap) %>% 
+  select(-geometry)
+
+m_gapperi <- glm(y ~ temperature,
+                     data = sf_tmp_gap,
+                     family = "binomial")
+
+summary(m_gapperi)
+
+#intercept estimate is 1.2809, p-value is 0.607
+#coefficient for temperature is -0.2778, p-value is 0.224
+#p-values are both much higher than 0.01, meaning effect of temperature is likely due to random chance. this makes sense 
 
 
 
 
 
-
-
-# peromyscus maniculatus --------------------------------------------------
-
-#Peromyscus maniculatus occurrence data
+# Peromyscus maniculatus occurrence data ----------------------------------
 df_manic <- df_nc_spec %>%
   select(locality,
          lon,
@@ -149,135 +139,70 @@ sf_manic <- st_as_sf(df_manic,
                        crs = 4326) 
 
 print(sf_manic)
-#Bounding: xmin: -83.4631 ymin: 35.02472 xmax: -78.99502 ymax: 36.17197
-
 
 #temperature raster
 tmp_nc <- rast("data/spr_tmp_nc.tif")
 
-## extract values at the survey sites
+#extract values at the survey sites
 (sf_tmp_manic <- extract(x = tmp_nc,
                    y = sf_manic,
                    bind = TRUE) %>% 
     st_as_sf())
 
-
 #for map
 (sf_nc_county <- readRDS("data/sf_nc_county.rds"))
 
 #mapping raster layer with temperature, put survey sites on top
-map <- ggplot() +
+map_manic <- ggplot() +
   geom_spatraster(data = tmp_nc) + #spatial info
   geom_sf(data = sf_nc_county,
           alpha = .25) +
   geom_sf(data = sf_manic,    
-          aes(color = factor(y))) + 
+          aes(color = factor(y)),
+          size = .5) + 
   scale_color_manual(values = c("#BF4102", "#07ACE3")) + 
   scale_fill_viridis_c(option = "cividis") +   
   theme_bw()   
 
-print(map)
+print(map_manic)
 
 
-#I'm trying to think of a way to plot each species as a different color so I can show all the different species at once, but I dont think that really makes sense as a spatial map, especially when I have 27 different species. More of a bar graph situation where individual bars for each locality I think? (I do know how to do this, but it's not necessary right now!)
+# Analysis of maniculatus data --------------------------------------------
 
+#convert to df 
+df_tmp_manic <- as_tibble(sf_tmp_manic) %>% 
+  select(-geometry)
 
-# Analysis of data --------------------------------------------------------
-
+#glm
 m_maniculatus <- glm(y ~ temperature,
-          data = sf_tmp_manic,
+          data = df_tmp_manic,
           family = "binomial")
 
 summary(m_maniculatus)
-
 #intercept estimate is 4.5740, p-value is 0.0272
 #coefficient for temperature is -0.3895, p-value is 0.0303
-#p-values are both much higher than 0.01, meaning effect of temperature is likely due to random chance. this makes sense 
+#p-values are both much higher than 0.01, meaning effect of temperature is likely due to random chance once again
 
+#visualize
+df_pred <- ggpredict(m_maniculatus,
+                     terms = "temperature [all]")
+
+ggplot() +
+  geom_point(data = df_tmp_manic,
+             aes(x = temperature,
+                 y = y)) +
+  geom_line(data = df_pred,
+            aes(x = x,
+                y = predicted)) +
+  geom_ribbon(data = df_pred,
+              aes(x = x,
+                  ymin = conf.low,
+                  ymax = conf.high),
+              fill = "grey",
+              alpha = 0.3) +
+  labs(x = "Air temperature",
+       y = "Probability of occurrence") +
+  theme_classic()
 
 
 #if I wanted to test this for effect of temperature on overall species richness, could I easily do that without building 27 individual dataframes for each species, and then adding each of them to the data category in the glm??? I think that could potentially show a slightly more significant relationship. Same with ectoparasites, but I am still struggling to understand how I would need to code that  to make it all work within this framework. 
-
-
-
-
-
-
-
-
-
-
-
-#Old stuff I am keeping here to show that I did try a few different things before switching my dataset... Also deleted several other project attempts, so this is only a portion of the amount of tinkering I did before changing my mind 
-
-
-#visualize
-mapview(nv_site,
-        legend = FALSE)
-
-#save spatial object
-saveRDS(nv_site, file = "data/nv_site.rds")
-
-
-#read temperature raster
-bio_data <-rast("CHELSA_clim_mean.tif")
-
-## extract values at the survey sites
-nv_tmps <- extract(x = bio_data,
-                       y = nv_site,
-                       bind = TRUE) %>% 
-    st_as_sf()
-
-
-
-#presence/absence
-nv_tmps %>% 
-  mutate(presence = 1) %>% # all recorded species are "presence" = 1
-  pivot_wider(id_cols = c(locality, long, lat),
-              names_from = species,
-              values_from = presence,
-              values_fill = 0)
-
-
-
-
-#dataframe
-(df_nv_tmps <- as_tibble(nv_tmps) %>% 
-    select(-geometry))
-
-
-#visualize
-ggplot() +
-  geom_spatraster(data = bio_data) + 
-  geom_sf(data = nv_site,
-          aes(color = factor(y))) + 
-  scale_fill_viridis_c() +   
-  theme_bw() 
-
-
-
-#plot the relationship!!!
-nv_site %>%
-  ggplot(aes(y = y, 
-             x = temperature)) +
-  geom_point() +
-  theme_bw()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#Elevation (use “elevatr::get_elev_raster()” function in R with bounding box)
-
