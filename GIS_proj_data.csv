@@ -1,0 +1,275 @@
+collection_object_id,guid,species,country,state,locality,lat,long,elevation,life_stage,examined_for,detected,not_detected,presence,absence
+33406412,UNCG:Mamm:1018,Callospermophilus lateralis,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.55089099,-114.871686,2131,adult,ectoparasite,ectoparasite, ,1, 
+33406463,UNCG:Mamm:1055,Tamias minimus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.54793604,-114.842366,2240,adult,ectoparasite,ectoparasite, ,1, 
+33406415,UNCG:Mamm:1008,Peromyscus maniculatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.55654702,-114.834934,2531,adult,ectoparasite,ectoparasite, ,1, 
+33406427,UNCG:Mamm:1007,Peromyscus maniculatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.55653696,-114.834903,2531,adult,ectoparasite,,ectoparasite  ,,0
+33406416,UNCG:Mamm:1009,Peromyscus maniculatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.55663704,-114.834811,2532,adult,ectoparasite,ectoparasite, ,1, 
+33406434,UNCG:Mamm:1029,Callospermophilus lateralis,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.55692001,-114.834745,2507,adult,ectoparasite,ectoparasite, ,1, 
+33406414,UNCG:Mamm:1006,Perognathus mollipilosus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.55663704,-114.834741,2531,adult,ectoparasite,ectoparasite, ,1, 
+33406442,UNCG:Mamm:1034,Sylvilagus nuttalli,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.55716996,-114.834114,2517,adult,ectoparasite,ectoparasite, ,1, 
+33406457,UNCG:Mamm:1046,Tamias umbrinus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.55623999,-114.833757,2542,adult,ectoparasite,ectoparasite, ,1, 
+33406455,UNCG:Mamm:1044,Tamias umbrinus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.55637603,-114.833602,2562,adult,ectoparasite,ectoparasite, ,1, 
+33406458,UNCG:Mamm:1045,Tamias umbrinus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.556285,-114.83336,2570,adult,ectoparasite,ectoparasite, ,1, 
+33406441,UNCG:Mamm:1019,Tamias minimus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56117802,-114.830904,2547,adult,ectoparasite,,ectoparasite  ,,0
+33406429,UNCG:Mamm:1022,Callospermophilus lateralis,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56108196,-114.830387,2559,adult,ectoparasite,ectoparasite, ,1, 
+33406444,UNCG:Mamm:1035,Lemmiscus curtatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56650002,-114.824049,2591,adult,ectoparasite,ectoparasite, ,1, 
+33406439,UNCG:Mamm:1027,Dipodomys microps,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56556502,-114.823947,2644,adult,ectoparasite,ectoparasite, ,1, 
+33406453,UNCG:Mamm:1047,Lemmiscus curtatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.565662,-114.823924,2634,adult,ectoparasite,ectoparasite, ,1, 
+33406452,UNCG:Mamm:1049,Lemmiscus curtatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56572998,-114.823906,2631,adult,ectoparasite,ectoparasite, ,1, 
+33406459,UNCG:Mamm:1048,Peromyscus maniculatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56654898,-114.823887,2605,adult,ectoparasite,,ectoparasite  ,,0
+33406446,UNCG:Mamm:1039,Urocitellus beldingi,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56721902,-114.823552,2573,juvenile,ectoparasite,ectoparasite, ,1, 
+33406462,UNCG:Mamm:1054,Urocitellus beldingi,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56564004,-114.823502,2544,adult,ectoparasite,ectoparasite, ,1, 
+33406432,UNCG:Mamm:1025,Lemmiscus curtatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56539998,-114.823448,2636,adult,ectoparasite,ectoparasite, ,1, 
+33406440,UNCG:Mamm:1031,Urocitellus beldingi,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56543502,-114.823413,2652,adult,ectoparasite,ectoparasite, ,1, 
+33406461,UNCG:Mamm:1053,Urocitellus beldingi,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56666397,-114.823366,2551,adult,ectoparasite,ectoparasite, ,1, 
+33406456,UNCG:Mamm:1042,Reithrodontomys megalotis,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56538397,-114.823358,2634,adult,ectoparasite,ectoparasite, ,1, 
+33406451,UNCG:Mamm:1041,Microtus longicaudus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56538498,-114.823267,2634,adult,ectoparasite,ectoparasite, ,1, 
+33406430,UNCG:Mamm:1021,Callospermophilus lateralis,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56571104,-114.82293,2585,adult,ectoparasite,ectoparasite  ,,1,
+33406449,UNCG:Mamm:1038,Microtus longicaudus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56576502,-114.822734,2585,,ectoparasite,,ectoparasite  ,,0
+33406454,UNCG:Mamm:1051,Tamias minimus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56651897,-114.819479,2743,adult,ectoparasite,ectoparasite, ,1, 
+33406447,UNCG:Mamm:1040,Tamias minimus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56670798,-114.818954,2635,adult,ectoparasite,ectoparasite, ,1, 
+33406464,UNCG:Mamm:1056,Tamias minimus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56667797,-114.818881,2647,adult,ectoparasite,,ectoparasite  ,,0
+33406407,UNCG:Mamm:1013,Peromyscus maniculatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56585303,-114.818308,2682,adult,ectoparasite,ectoparasite, ,1, 
+33406422,UNCG:Mamm:1001,Callospermophilus lateralis,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56672902,-114.817521,2673,adult,ectoparasite,ectoparasite, ,1, 
+33406406,UNCG:Mamm:1011,Peromyscus maniculatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56590399,-114.817482,2695,adult,ectoparasite,ectoparasite, ,1, 
+33406445,UNCG:Mamm:1036,Lemmiscus curtatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56594296,-114.817202,2700,adult,ectoparasite,ectoparasite, ,1, 
+33406421,UNCG:Mamm:1003,Thomomys talpoides,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56663598,-114.816985,2677,adult,ectoparasite,ectoparasite, ,1, 
+33406413,UNCG:Mamm:1005,Microtus longicaudus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56602502,-114.816668,2700,adult,ectoparasite,ectoparasite, ,1, 
+33406424,UNCG:Mamm:1004,Tamias minimus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56598898,-114.816663,2703,adult,ectoparasite,ectoparasite, ,1, 
+33406425,UNCG:Mamm:1014,Peromyscus maniculatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.565978,-114.81651,2700,adult,ectoparasite,ectoparasite, ,1, 
+33406436,UNCG:Mamm:1032,Microtus longicaudus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.565978,-114.81651,2700,adult,ectoparasite,ectoparasite, ,1, 
+33406417,UNCG:Mamm:1010,Peromyscus maniculatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56599401,-114.816271,2696,adult,ectoparasite,ectoparasite, ,1, 
+33406419,UNCG:Mamm:1012,Peromyscus maniculatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56615402,-114.816185,2689,adult,ectoparasite,ectoparasite, ,1, 
+33406431,UNCG:Mamm:1023,Thomomys talpoides,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.564913,-114.8154,2731,adult,ectoparasite,ectoparasite, ,1, 
+33406426,UNCG:Mamm:1016,Peromyscus maniculatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56687696,-114.815332,2665,adult,ectoparasite,ectoparasite, ,1, 
+33406443,UNCG:Mamm:1033,Lemmiscus curtatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56548296,-114.815194,2696,adult,ectoparasite,ectoparasite, ,1, 
+33406437,UNCG:Mamm:1024,Lemmiscus curtatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.565346,-114.815132,2713,adult,ectoparasite,ectoparasite, ,1, 
+33406450,UNCG:Mamm:1037,Tamias umbrinus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56672801,-114.815099,2655,adult,ectoparasite,,ectoparasite  ,,0
+33406418,UNCG:Mamm:1015,Peromyscus maniculatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56602703,-114.815071,2697,adult,ectoparasite,ectoparasite, ,1, 
+33406423,UNCG:Mamm:1002,Lemmiscus curtatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56556402,-114.814975,2709,juvenile,ectoparasite,ectoparasite, ,1, 
+33406428,UNCG:Mamm:1020,Lemmiscus curtatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56535296,-114.814903,2707,adult,ectoparasite,ectoparasite, ,1, 
+33406433,UNCG:Mamm:1028,Peromyscus maniculatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56517904,-114.814867,2707,adult,ectoparasite,ectoparasite, ,1, 
+33406435,UNCG:Mamm:1030,Thomomys talpoides,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.565086,-114.814849,2709,adult,ectoparasite,ectoparasite, ,1, 
+33406460,UNCG:Mamm:1043,Tamias umbrinus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56657203,-114.814764,2659,adult,ectoparasite,,ectoparasite  ,,0
+33406438,UNCG:Mamm:1026,Tamias umbrinus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56639098,-114.814458,2682,adult,ectoparasite,ectoparasite, ,1, 
+33406420,UNCG:Mamm:1017,Peromyscus maniculatus,USA,Nevada,1.5 km NNW Spruce Mountain peak,40.56639701,-114.814432,2684,adult,ectoparasite,ectoparasite, ,1, 
+33406915,UNCG:Mamm:1119,Microtus longicaudus,USA,Nevada,2 km NE Spruce Mountain peak,40.56411898,-114.806154,2443,adult,ectoparasite,,ectoparasite  ,,0
+33406919,UNCG:Mamm:1115,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.564151,-114.806149,2410,adult,ectoparasite,,ectoparasite  ,,0
+33406918,UNCG:Mamm:1116,Callospermophilus lateralis,USA,Nevada,2 km NE Spruce Mountain peak,40.56416198,-114.805963,2404,adult,ectoparasite,,ectoparasite  ,,0
+33406898,UNCG:Mamm:1088,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56429399,-114.805862,2430,adult,ectoparasite,ectoparasite, ,1, 
+33406894,UNCG:Mamm:1084,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.564325,-114.805837,2428,adult,ectoparasite,ectoparasite, ,1, 
+33406904,UNCG:Mamm:1096,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56436197,-114.805752,2427,adult,ectoparasite,,ectoparasite  ,,0
+33406884,UNCG:Mamm:1092,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56446096,-114.805671,2423,adult,ectoparasite,ectoparasite, ,1, 
+33406905,UNCG:Mamm:1097,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56446599,-114.805669,2423,adult,ectoparasite,,ectoparasite  ,,0
+33406901,UNCG:Mamm:1093,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56453204,-114.805611,2423,adult,ectoparasite,ectoparasite, ,1, 
+33406903,UNCG:Mamm:1095,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56453799,-114.805558,2422,adult,ectoparasite,,ectoparasite  ,,0
+33406908,UNCG:Mamm:1100,Tamias minimus,USA,Nevada,2 km NE Spruce Mountain peak,40.56468702,-114.805447,2472,adult,ectoparasite,,ectoparasite  ,,0
+33406909,UNCG:Mamm:1101,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56468501,-114.805417,2472,adult,ectoparasite,,ectoparasite  ,,0
+33406920,UNCG:Mamm:1114,Thomomys talpoides,USA,Nevada,2 km NE Spruce Mountain peak,40.56460002,-114.805345,2392,adult,ectoparasite,ectoparasite, ,1, 
+33406886,UNCG:Mamm:1109,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56462902,-114.803873,2392,adult,ectoparasite,,ectoparasite  ,,0
+33406479,UNCG:Mamm:1071,Tamias minimus,USA,Nevada,2 km NE Spruce Mountain peak,40.56473002,-114.803862,2385,adult,ectoparasite,,ectoparasite  ,,0
+33406467,UNCG:Mamm:1059,Lemmiscus curtatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56475801,-114.803577,2380,adult,ectoparasite,ectoparasite, ,1, 
+33406471,UNCG:Mamm:1070,Microtus longicaudus,USA,Nevada,2 km NE Spruce Mountain peak,40.56478903,-114.803504,2378,adult,ectoparasite,ectoparasite, ,1, 
+33406892,UNCG:Mamm:1086,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56476003,-114.803445,2376,adult,ectoparasite,ectoparasite, ,1, 
+33406906,UNCG:Mamm:1098,Callospermophilus lateralis,USA,Nevada,2 km NE Spruce Mountain peak,40.56471703,-114.803351,2328,adult,ectoparasite,ectoparasite, ,1, 
+33406474,UNCG:Mamm:1069,Microtus longicaudus,USA,Nevada,2 km NE Spruce Mountain peak,40.564842,-114.802981,2371,adult,ectoparasite,,ectoparasite  ,,0
+33406917,UNCG:Mamm:1117,Callospermophilus lateralis,USA,Nevada,2 km NE Spruce Mountain peak,40.56477604,-114.802945,2383,subadult,ectoparasite,,ectoparasite  ,,0
+33406895,UNCG:Mamm:1085,Microtus longicaudus,USA,Nevada,2 km NE Spruce Mountain peak,40.56479598,-114.802856,2368,adult,ectoparasite,ectoparasite, ,1, 
+33406916,UNCG:Mamm:1118,Callospermophilus lateralis,USA,Nevada,2 km NE Spruce Mountain peak,40.56478199,-114.802782,2381,subadult,ectoparasite,ectoparasite, ,1, 
+33406472,UNCG:Mamm:1068,Tamias minimus,USA,Nevada,2 km NE Spruce Mountain peak,40.56479699,-114.802709,2366,adult,ectoparasite,,ectoparasite  ,,0
+33406893,UNCG:Mamm:1087,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56480202,-114.802636,2364,adult,ectoparasite,ectoparasite, ,1, 
+33406408,UNCG:Mamm:1075,Mustela erminea,USA,Nevada,2 km NE Spruce Mountain peak,40.56394598,-114.802052,2480,juvenile,ectoparasite,,ectoparasite  ,,0
+33406475,UNCG:Mamm:1063,Microtus longicaudus,USA,Nevada,2 km NE Spruce Mountain peak,40.563936,-114.801757,2394,adult,ectoparasite,,ectoparasite  ,,0
+33406896,UNCG:Mamm:1089,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.563864,-114.801753,2281,adult,ectoparasite,ectoparasite, ,1, 
+33406900,UNCG:Mamm:1121,Lemmiscus curtatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56378798,-114.801737,2382,adult,ectoparasite,,ectoparasite  ,,0
+33406480,UNCG:Mamm:1064,Tamias minimus,USA,Nevada,2 km NE Spruce Mountain peak,40.563705,-114.801686,2402,adult,ectoparasite,,ectoparasite  ,,0
+33406887,UNCG:Mamm:1081,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56372704,-114.801675,2291,adult,ectoparasite,ectoparasite, ,1, 
+33406476,UNCG:Mamm:1061,Microtus longicaudus,USA,Nevada,2 km NE Spruce Mountain peak,40.56441503,-114.80167,2384,adult,ectoparasite,,ectoparasite  ,,0
+33406470,UNCG:Mamm:1067,Microtus longicaudus,USA,Nevada,2 km NE Spruce Mountain peak,40.56412099,-114.801663,2388,subadult,ectoparasite,ectoparasite, ,1, 
+33406889,UNCG:Mamm:1080,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56396299,-114.801648,2253,adult,ectoparasite,ectoparasite, ,1, 
+33406899,UNCG:Mamm:1090,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56361003,-114.801575,2326,adult,ectoparasite,ectoparasite, ,1, 
+33406925,UNCG:Mamm:1108,Lemmiscus curtatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56360198,-114.801575,2425,adult,ectoparasite,ectoparasite, ,1, 
+33406913,UNCG:Mamm:1107,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.564209,-114.801533,2411,adult,ectoparasite,ectoparasite, ,1, 
+33406448,UNCG:Mamm:1066,Microtus longicaudus,USA,Nevada,2 km NE Spruce Mountain peak,40.56346896,-114.801523,2404,subadult,ectoparasite,ectoparasite, ,1, 
+33406907,UNCG:Mamm:1099,Tamias minimus,USA,Nevada,2 km NE Spruce Mountain peak,40.56488802,-114.801377,2329,adult,ectoparasite,ectoparasite, ,1, 
+33406888,UNCG:Mamm:1079,Mustela erminea,USA,Nevada,2 km NE Spruce Mountain peak,40.56349201,-114.801333,2316,juvenile,ectoparasite,,ectoparasite  ,,0
+33406921,UNCG:Mamm:1113,Tamias minimus,USA,Nevada,2 km NE Spruce Mountain peak,40.56344901,-114.801323,2549,adult,ectoparasite,,ectoparasite  ,,0
+33406469,UNCG:Mamm:1065,Microtus longicaudus,USA,Nevada,2 km NE Spruce Mountain peak,40.56342504,-114.801315,2401,adult,ectoparasite,ectoparasite, ,1, 
+33406885,UNCG:Mamm:1102,Callospermophilus lateralis,USA,Nevada,2 km NE Spruce Mountain peak,40.564799,-114.801205,2329,adult,ectoparasite,ectoparasite, ,1, 
+33406910,UNCG:Mamm:1103,Callospermophilus lateralis,USA,Nevada,2 km NE Spruce Mountain peak,40.564799,-114.801205,2329,adult,ectoparasite,ectoparasite, ,1, 
+33406922,UNCG:Mamm:1112,Tamias minimus,USA,Nevada,2 km NE Spruce Mountain peak,40.56367096,-114.801065,2578,adult,ectoparasite,,ectoparasite  ,,0
+33406468,UNCG:Mamm:1062,Mustela erminea,USA,Nevada,2 km NE Spruce Mountain peak,40.563389,-114.801013,2392,juvenile,ectoparasite,ectoparasite, ,1, 
+33406923,UNCG:Mamm:1111,Microtus longicaudus,USA,Nevada,2 km NE Spruce Mountain peak,40.56329302,-114.800762,2524,subadult,ectoparasite,,ectoparasite  ,,0
+33406924,UNCG:Mamm:1110,Tamias minimus,USA,Nevada,2 km NE Spruce Mountain peak,40.56329202,-114.800762,2523,adult,ectoparasite,ectoparasite, ,1, 
+33406411,UNCG:Mamm:1060,Microtus longicaudus,USA,Nevada,2 km NE Spruce Mountain peak,40.56469398,-114.800739,2376,subadult,ectoparasite,ectoparasite, ,1, 
+33406891,UNCG:Mamm:1082,Microtus montanus,USA,Nevada,2 km NE Spruce Mountain peak,40.56460798,-114.800379,2340,adult,ectoparasite,ectoparasite, ,1, 
+33406473,UNCG:Mamm:1078,Microtus longicaudus,USA,Nevada,2 km NE Spruce Mountain peak,40.56335899,-114.800325,2445,subadult,ectoparasite,,ectoparasite  ,,0
+33406911,UNCG:Mamm:1105,Tamias minimus,USA,Nevada,2 km NE Spruce Mountain peak,40.56455098,-114.80017,2322,adult,ectoparasite,,ectoparasite  ,,0
+33406477,UNCG:Mamm:1072,Microtus longicaudus,USA,Nevada,2 km NE Spruce Mountain peak,40.56458903,-114.799953,2357,adult,ectoparasite,,ectoparasite  ,,0
+33406897,UNCG:Mamm:1091,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56463497,-114.79992,2326,adult,ectoparasite,ectoparasite, ,1, 
+33406481,UNCG:Mamm:1073,Tamias minimus,USA,Nevada,2 km NE Spruce Mountain peak,40.56464997,-114.79985,2356,adult,ectoparasite,,ectoparasite  ,,0
+33406914,UNCG:Mamm:1120,Perognathus parvus,USA,Nevada,2 km NE Spruce Mountain peak,40.56459197,-114.799802,2322,adult,ectoparasite,,ectoparasite  ,,0
+33406912,UNCG:Mamm:1106,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56331197,-114.799757,2404,adult,ectoparasite,,ectoparasite  ,,0
+33406478,UNCG:Mamm:1074,Tamias minimus,USA,Nevada,2 km NE Spruce Mountain peak,40.56466104,-114.799674,2353,adult,ectoparasite,,ectoparasite  ,,0
+33406466,UNCG:Mamm:1076,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56566703,-114.799632,2369,adult,ectoparasite,ectoparasite, ,1, 
+33406482,UNCG:Mamm:1077,Tamias umbrinus,USA,Nevada,2 km NE Spruce Mountain peak,40.56462298,-114.799611,2314,adult,ectoparasite,,ectoparasite  ,,0
+33406902,UNCG:Mamm:1094,Peromyscus maniculatus,USA,Nevada,2 km NE Spruce Mountain peak,40.56569,-114.799404,2376,adult,ectoparasite,ectoparasite, ,1, 
+33406890,UNCG:Mamm:1083,Tamias umbrinus,USA,Nevada,2 km NE Spruce Mountain peak,40.56572897,-114.799147,2374,adult,ectoparasite,ectoparasite, ,1, 
+33406626,UNCG:Mamm:1210,Thomomys talpoides,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.358246,-114.658944,2417,subadult,ectoparasite,ectoparasite, ,1, 
+33406698,UNCG:Mamm:1285,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35439896,-114.651883,2458,adult,ectoparasite,,ectoparasite  ,,0
+33406690,UNCG:Mamm:1289,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35433098,-114.65184,2458,adult,ectoparasite,,ectoparasite  ,,0
+33406672,UNCG:Mamm:1259,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.354348,-114.651817,2505,subadult,ectoparasite,ectoparasite, ,1, 
+33406659,UNCG:Mamm:1250,Lemmiscus curtatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35406603,-114.651619,2329,adult,ectoparasite,,ectoparasite  ,,0
+33406689,UNCG:Mamm:1284,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35413501,-114.651595,2458,adult,ectoparasite,,ectoparasite  ,,0
+33406675,UNCG:Mamm:1263,Tamias umbrinus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.354075,-114.651591,2591,adult,ectoparasite,ectoparasite, ,1, 
+33406624,UNCG:Mamm:1235,Tamias umbrinus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35384701,-114.651465,2425,adult,ectoparasite,ectoparasite, ,1, 
+33406683,UNCG:Mamm:1286,Tamias umbrinus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35387501,-114.651449,2460,subadult,ectoparasite,ectoparasite, ,1, 
+33406540,UNCG:Mamm:1135,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.35383804,-114.651425,2471,adult,ectoparasite,ectoparasite, ,1, 
+33406543,UNCG:Mamm:1137,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.35373,-114.65132,2472,adult,ectoparasite,,ectoparasite  ,,0
+33406544,UNCG:Mamm:1136,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.35373,-114.65132,2472,adult,ectoparasite,,ectoparasite  ,,0
+33406632,UNCG:Mamm:1218,Tamias umbrinus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35372799,-114.651296,2333,adult,ectoparasite,ectoparasite, ,1, 
+33406669,UNCG:Mamm:1266,Tamias umbrinus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35367401,-114.651212,2460,subadult,ectoparasite,ectoparasite, ,1, 
+33406625,UNCG:Mamm:1240,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.354794,-114.651172,2516,adult,ectoparasite,ectoparasite, ,1, 
+33406530,UNCG:Mamm:1126,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.35363101,-114.651148,2473,adult,ectoparasite,ectoparasite, ,1, 
+33406677,UNCG:Mamm:1269,Callospermophilus lateralis,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35464002,-114.651068,2428,adult,ectoparasite,ectoparasite, ,1, 
+33406668,UNCG:Mamm:1265,Tamias minimus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35444397,-114.65094,2437,subadult,ectoparasite,ectoparasite, ,1, 
+33406687,UNCG:Mamm:1277,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35440499,-114.650913,2467,subadult,ectoparasite,,ectoparasite  ,,0
+33406692,UNCG:Mamm:1275,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35433802,-114.650859,2469,adult,ectoparasite,,ectoparasite  ,,0
+33406644,UNCG:Mamm:1215,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35431003,-114.650847,2462,adult,ectoparasite,,ectoparasite  ,,0
+33406531,UNCG:Mamm:1128,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.353514,-114.650827,2468,adult,ectoparasite,ectoparasite, ,1, 
+33406680,UNCG:Mamm:1262,Sylvilagus nuttalli,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35429804,-114.650779,2469,subadult,ectoparasite,,ectoparasite  ,,0
+33406645,UNCG:Mamm:1230,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35347502,-114.650777,2388,adult,ectoparasite,,ectoparasite  ,,0
+33406622,UNCG:Mamm:1224,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35348902,-114.650732,2387,adult,ectoparasite,ectoparasite, ,1, 
+33406621,UNCG:Mamm:1219,Tamias umbrinus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35348902,-114.65073,2387,adult,ectoparasite,ectoparasite, ,1, 
+33406653,UNCG:Mamm:1255,Tamias minimus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35372103,-114.650699,2313,adult,ectoparasite,ectoparasite, ,1, 
+33406641,UNCG:Mamm:1236,Tamias minimus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35431103,-114.650697,2564,adult,ectoparasite,ectoparasite, ,1, 
+33406639,UNCG:Mamm:1231,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35470599,-114.650674,2707,adult,ectoparasite,ectoparasite, ,1, 
+33406673,UNCG:Mamm:1264,Tamias minimus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35359304,-114.650584,2621,adult,ectoparasite,ectoparasite, ,1, 
+33406647,UNCG:Mamm:1239,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35469199,-114.650573,2512,subadult,ectoparasite,,ectoparasite  ,,0
+33406662,UNCG:Mamm:1246,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35332297,-114.65054,2473,adult,ectoparasite,,ectoparasite  ,,0
+33406674,UNCG:Mamm:1267,Tamias umbrinus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35376302,-114.650492,2457,adult,ectoparasite,ectoparasite, ,1, 
+33406640,UNCG:Mamm:1234,Tamias umbrinus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35373503,-114.650473,2404,adult,ectoparasite,ectoparasite, ,1, 
+33406649,UNCG:Mamm:1233,Tamias umbrinus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35373503,-114.650473,2404,adult,ectoparasite,,ectoparasite  ,,0
+33406667,UNCG:Mamm:1261,Tamias minimus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35466299,-114.650333,2481,juvenile,ectoparasite,ectoparasite, ,1, 
+33406650,UNCG:Mamm:1232,Tamias umbrinus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35385296,-114.650268,2404,adult,ectoparasite,,ectoparasite  ,,0
+33406596,UNCG:Mamm:1187,Callospermophilus lateralis,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.401993,-114.650249,2497,adult,ectoparasite,,ectoparasite  ,,0
+33406676,UNCG:Mamm:1268,Tamias umbrinus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35330797,-114.650134,2639,adult,ectoparasite,ectoparasite, ,1, 
+33406685,UNCG:Mamm:1274,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.354521,-114.64992,2473,adult,ectoparasite,,ectoparasite  ,,0
+33406630,UNCG:Mamm:1216,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35448001,-114.649853,2469,subadult,ectoparasite,ectoparasite, ,1, 
+33406670,UNCG:Mamm:1270,Tamias minimus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35452301,-114.649812,2478,juvenile,ectoparasite,ectoparasite, ,1, 
+33406882,UNCG:Mamm:1252,Thomomys talpoides,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35392697,-114.649769,,adult,ectoparasite,ectoparasite, ,1, 
+33406699,UNCG:Mamm:1273,Perognathus parvus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.354003,-114.64925,2465,adult,ectoparasite,,ectoparasite  ,,0
+33406633,UNCG:Mamm:1222,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35404097,-114.649197,2472,adult,ectoparasite,ectoparasite, ,1, 
+33406643,UNCG:Mamm:1226,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35404901,-114.649195,2473,adult,ectoparasite,,ectoparasite  ,,0
+33406688,UNCG:Mamm:1283,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35406704,-114.649166,2513,adult,ectoparasite,,ectoparasite  ,,0
+33406652,UNCG:Mamm:1244,Lemmiscus curtatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35409402,-114.649153,2472,adult,ectoparasite,ectoparasite, ,1, 
+33406646,UNCG:Mamm:1223,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35409696,-114.649148,2474,adult,ectoparasite,,ectoparasite  ,,0
+33406642,UNCG:Mamm:1238,Tamias minimus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35407701,-114.649051,2417,subadult,ectoparasite,ectoparasite, ,1, 
+33406623,UNCG:Mamm:1227,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.354075,-114.648938,2478,adult,ectoparasite,ectoparasite, ,1, 
+33406628,UNCG:Mamm:1211,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.354075,-114.648938,2478,adult,ectoparasite,ectoparasite, ,1, 
+33406655,UNCG:Mamm:1242,Lemmiscus curtatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.354118,-114.648811,2480,adult,ectoparasite,ectoparasite, ,1, 
+33406697,UNCG:Mamm:1281,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35423099,-114.648543,2516,adult,ectoparasite,,ectoparasite  ,,0
+33406654,UNCG:Mamm:1241,Microtus longicaudus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35421003,-114.648477,2486,adult,ectoparasite,ectoparasite, ,1, 
+33406684,UNCG:Mamm:1287,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.34999804,-114.648249,2463,adult,ectoparasite,ectoparasite, ,1, 
+33406660,UNCG:Mamm:1251,Lemmiscus curtatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35423199,-114.648241,2489,adult,ectoparasite,,ectoparasite  ,,0
+33406634,UNCG:Mamm:1220,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35423903,-114.648203,2496,subadult,ectoparasite,ectoparasite, ,1, 
+33406631,UNCG:Mamm:1217,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.34985697,-114.648199,2467,subadult,ectoparasite,ectoparasite, ,1, 
+33406686,UNCG:Mamm:1278,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.34986896,-114.648182,2465,subadult,ectoparasite,,ectoparasite  ,,0
+33406635,UNCG:Mamm:1221,Lemmiscus curtatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35422897,-114.648095,2496,adult,ectoparasite,ectoparasite, ,1, 
+33406665,UNCG:Mamm:1249,Tamias minimus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35431397,-114.648027,2490,adult,ectoparasite,,ectoparasite  ,,0
+33406648,UNCG:Mamm:1237,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35430399,-114.64802,2449,subadult,ectoparasite,,ectoparasite  ,,0
+33406656,UNCG:Mamm:1245,Microtus longicaudus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35429402,-114.647989,2494,adult,ectoparasite,ectoparasite, ,1, 
+33406638,UNCG:Mamm:1229,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.34979201,-114.647985,2469,adult,ectoparasite,ectoparasite, ,1, 
+33406694,UNCG:Mamm:1282,Tamias minimus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35435797,-114.647886,2519,subadult,ectoparasite,,ectoparasite  ,,0
+33406678,UNCG:Mamm:1256,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.34977399,-114.647828,2480,adult,ectoparasite,,ectoparasite  ,,0
+33406693,UNCG:Mamm:1280,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35433702,-114.647773,2520,adult,ectoparasite,,ectoparasite  ,,0
+33406679,UNCG:Mamm:1260,Tamias minimus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35418304,-114.647696,2496,juvenile,ectoparasite,,ectoparasite  ,,0
+33406620,UNCG:Mamm:1213,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.34974801,-114.64761,2470,subadult,ectoparasite,ectoparasite, ,1, 
+33406651,UNCG:Mamm:1243,Perognathus parvus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35402798,-114.647571,2507,adult,ectoparasite,ectoparasite, ,1, 
+33406671,UNCG:Mamm:1257,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35400501,-114.647557,2502,adult,ectoparasite,ectoparasite, ,1, 
+33406629,UNCG:Mamm:1212,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.34980199,-114.647509,2472,subadult,ectoparasite,ectoparasite, ,1, 
+33406658,UNCG:Mamm:1247,Lemmiscus curtatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35397701,-114.647493,2504,adult,ectoparasite,,ectoparasite  ,,0
+33406691,UNCG:Mamm:1276,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.34965698,-114.647476,2467,adult,ectoparasite,,ectoparasite  ,,0
+33406661,UNCG:Mamm:1248,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35378901,-114.647389,2507,adult,ectoparasite,,ectoparasite  ,,0
+33406636,UNCG:Mamm:1225,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35375104,-114.647375,2518,adult,ectoparasite,ectoparasite, ,1, 
+33406666,UNCG:Mamm:1258,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.34972202,-114.647359,2482,subadult,ectoparasite,ectoparasite, ,1, 
+33406681,UNCG:Mamm:1271,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.34969302,-114.647354,2412,adult,ectoparasite,ectoparasite, ,1, 
+33406528,UNCG:Mamm:1123,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.34964198,-114.647266,2471,adult,ectoparasite,,ectoparasite  ,,0
+33406637,UNCG:Mamm:1228,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.34962496,-114.647239,2473,adult,ectoparasite,ectoparasite, ,1, 
+33406627,UNCG:Mamm:1214,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.34974298,-114.646861,2475,adult,ectoparasite,ectoparasite, ,1, 
+33406695,UNCG:Mamm:1279,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.34978598,-114.646524,2471,adult,ectoparasite,,ectoparasite  ,,0
+33406682,UNCG:Mamm:1272,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.34991003,-114.646363,2425,adult,ectoparasite,ectoparasite, ,1, 
+33406696,UNCG:Mamm:1288,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.34982101,-114.646214,2472,adult,ectoparasite,,ectoparasite  ,,0
+33406663,UNCG:Mamm:1254,Tamias umbrinus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.35982096,-114.644051,2538,adult,ectoparasite,,ectoparasite  ,,0
+33406664,UNCG:Mamm:1253,Otospermophilus variegatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 5 km W Taff Peak, Berry Creek",39.349315,-114.644032,2501,adult,ectoparasite,,ectoparasite  ,,0
+33406557,UNCG:Mamm:1166,Microtus longicaudus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40291702,-114.642867,2503,adult,ectoparasite,ectoparasite, ,1, 
+33406558,UNCG:Mamm:1148,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40294803,-114.642849,2527,adult,ectoparasite,,ectoparasite  ,,0
+33406602,UNCG:Mamm:3190,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40300603,-114.642546,2541,adult,ectoparasite,,ectoparasite  ,,0
+33406569,UNCG:Mamm:1181,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40284904,-114.642038,2544,adult,ectoparasite,ectoparasite, ,1, 
+33406536,UNCG:Mamm:1138,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.402842,-114.64201,2535,adult,ectoparasite,ectoparasite, ,1, 
+33406582,UNCG:Mamm:3196,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40282197,-114.641792,2544,adult,ectoparasite,ectoparasite, ,1, 
+33406547,UNCG:Mamm:1153,Microtus longicaudus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.402943,-114.641613,2519,adult,ectoparasite,ectoparasite, ,1, 
+33406612,UNCG:Mamm:1209,Callospermophilus lateralis,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40299103,-114.641245,2588,adult,ectoparasite,ectoparasite, ,1, 
+33406529,UNCG:Mamm:1140,Tamias umbrinus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39977598,-114.629172,2380,adult,ectoparasite,ectoparasite, ,1, 
+33406532,UNCG:Mamm:1129,Microtus longicaudus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39996902,-114.629054,2629,adult,ectoparasite,ectoparasite, ,1, 
+33406555,UNCG:Mamm:1162,Microtus longicaudus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39994002,-114.629003,2661,adult,ectoparasite,ectoparasite, ,1, 
+33406575,UNCG:Mamm:1182,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39992703,-114.628889,2677,subadult,ectoparasite,ectoparasite, ,1, 
+33406590,UNCG:Mamm:1168,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39992703,-114.628888,2677,adult,ectoparasite,,ectoparasite  ,,0
+33406585,UNCG:Mamm:1189,Tamias umbrinus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39988897,-114.628733,2582,adult,ectoparasite,ectoparasite, ,1, 
+33406545,UNCG:Mamm:1133,Microtus longicaudus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39990699,-114.628602,2624,adult,ectoparasite,,ectoparasite  ,,0
+33406568,UNCG:Mamm:1180,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39982703,-114.62859,2683,adult,ectoparasite,ectoparasite, ,1, 
+33406578,UNCG:Mamm:3189,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39981496,-114.6285,2682,,ectoparasite,ectoparasite, ,1, 
+33406534,UNCG:Mamm:1132,Microtus longicaudus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39989601,-114.628264,2622,adult,ectoparasite,ectoparasite, ,1, 
+33406595,UNCG:Mamm:1178,Sorex navigator,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39986701,-114.628259,2688,adult,ectoparasite,,ectoparasite  ,,0
+33406559,UNCG:Mamm:1145,Sorex monticolus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39927902,-114.628165,2628,adult,ectoparasite,,ectoparasite  ,,0
+33406552,UNCG:Mamm:1156,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39980197,-114.628151,2660,adult,ectoparasite,ectoparasite, ,1, 
+33406565,UNCG:Mamm:1155,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39979803,-114.628151,2660,adult,ectoparasite,,ectoparasite  ,,0
+33406561,UNCG:Mamm:1146,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39932303,-114.628125,2628,adult,ectoparasite,,ectoparasite  ,,0
+33406574,UNCG:Mamm:1179,Microtus longicaudus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39985704,-114.628095,2689,adult,ectoparasite,ectoparasite, ,1, 
+33406601,UNCG:Mamm:3188,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.399836,-114.628056,2689,adult,ectoparasite,,ectoparasite  ,,0
+33406553,UNCG:Mamm:1159,Microtus longicaudus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.399836,-114.627754,2661,adult,ectoparasite,ectoparasite, ,1, 
+33406573,UNCG:Mamm:1177,Microtus longicaudus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39986198,-114.627711,2695,subadult,ectoparasite,ectoparasite, ,1, 
+33406526,UNCG:Mamm:1125,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39973298,-114.627683,2659,adult,ectoparasite,ectoparasite, ,1, 
+33406609,UNCG:Mamm:1200,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.399736,-114.627506,2657,adult,ectoparasite,ectoparasite, ,1, 
+33406571,UNCG:Mamm:1167,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39977498,-114.627492,2701,,ectoparasite,ectoparasite, ,1, 
+33406554,UNCG:Mamm:1160,Microtus longicaudus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.399822,-114.627473,2664,adult,ectoparasite,ectoparasite, ,1, 
+33406535,UNCG:Mamm:1134,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39980599,-114.627461,2602,adult,ectoparasite, ,ectoparasite, ,0
+33406541,UNCG:Mamm:1127,Sorex monticolus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.399807,-114.627454,2602,adult,ectoparasite,,ectoparasite  ,,0
+33406613,UNCG:Mamm:1198,Sorex monticolus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39980096,-114.627433,2653,adult,ectoparasite,,ectoparasite  ,,0
+33406527,UNCG:Mamm:1122,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39979702,-114.627431,2663,adult,ectoparasite,,ectoparasite  ,,0
+33406562,UNCG:Mamm:1147,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39980901,-114.627425,2630,adult,ectoparasite,,ectoparasite  ,,0
+33406597,UNCG:Mamm:3194,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39988503,-114.627425,2699,adult,ectoparasite,,ectoparasite  ,,0
+33406591,UNCG:Mamm:1176,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39972402,-114.627414,2585,adult,ectoparasite,,ectoparasite  ,,0
+33406592,UNCG:Mamm:1175,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39972402,-114.627414,2585,adult,ectoparasite,,ectoparasite  ,,0
+33406581,UNCG:Mamm:3195,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.399837,-114.62741,2698,adult,ectoparasite,ectoparasite, ,1, 
+33406572,UNCG:Mamm:1174,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39972402,-114.627391,2584,adult,ectoparasite,ectoparasite, ,1, 
+33406564,UNCG:Mamm:1154,Microtus longicaudus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.399779,-114.627377,2662,subadult,ectoparasite,,ectoparasite  ,,0
+33406563,UNCG:Mamm:1149,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39977397,-114.627373,2662,adult,ectoparasite,,ectoparasite  ,,0
+33406618,UNCG:Mamm:1197,Sorex monticolus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39976702,-114.627278,2656,adult,ectoparasite,,ectoparasite  ,,0
+33406594,UNCG:Mamm:1170,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39986299,-114.62727,2592,adult,ectoparasite,,ectoparasite  ,,0
+33406589,UNCG:Mamm:1171,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39985,-114.627261,2592,adult,ectoparasite,,ectoparasite  ,,0
+33406525,UNCG:Mamm:1124,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39972301,-114.627218,2663,adult,ectoparasite,ectoparasite, ,1, 
+33406593,UNCG:Mamm:1169,Sorex vagrans,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.39977699,-114.627143,2701,adult,ectoparasite,,ectoparasite  ,,0
+33406546,UNCG:Mamm:1144,Callospermophilus lateralis,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40182704,-114.6258,2608,adult,ectoparasite,,ectoparasite  ,,0
+33406587,UNCG:Mamm:1193,Tamias minimus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40193902,-114.625732,2752,adult,ectoparasite,ectoparasite, ,1, 
+33406604,UNCG:Mamm:1207,Lemmiscus curtatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40175897,-114.625728,2751,adult,ectoparasite,ectoparasite, ,1, 
+33406619,UNCG:Mamm:1206,Callospermophilus lateralis,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40178898,-114.625687,2752,adult,ectoparasite,,ectoparasite  ,,0
+33406616,UNCG:Mamm:1208,Lemmiscus curtatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40198202,-114.625658,2763,subadult,ectoparasite,,ectoparasite  ,,0
+33406560,UNCG:Mamm:1151,Lemmiscus curtatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40203197,-114.625635,2749,adult,ectoparasite,,ectoparasite  ,,0
+33406584,UNCG:Mamm:3198,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40208696,-114.62558,2725,adult,ectoparasite,ectoparasite, ,1, 
+33406577,UNCG:Mamm:1184,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40219198,-114.625452,2731,adult,ectoparasite,ectoparasite, ,1, 
+33406599,UNCG:Mamm:3191,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40219198,-114.625452,2731,adult,ectoparasite,,ectoparasite  ,,0
+33406586,UNCG:Mamm:1190,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40224504,-114.62536,2764,,ectoparasite,ectoparasite, ,1, 
+33406551,UNCG:Mamm:1157,Microtus longicaudus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40220003,-114.625274,2756,adult,ectoparasite,ectoparasite, ,1, 
+33406603,UNCG:Mamm:3192,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40227304,-114.62518,2739,adult,ectoparasite,,ectoparasite  ,,0
+33406533,UNCG:Mamm:1131,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40232601,-114.625101,2781,adult,ectoparasite,ectoparasite, ,1, 
+33406539,UNCG:Mamm:1143,Tamias minimus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.402799,-114.62496,2602,adult,ectoparasite,ectoparasite, ,1, 
+33406598,UNCG:Mamm:3197,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40230899,-114.624874,2747,adult,ectoparasite,,ectoparasite  ,,0
+33406537,UNCG:Mamm:1139,Peromyscus maniculatus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40234001,-114.624778,2783,adult,ectoparasite,ectoparasite, ,1, 
+33406570,UNCG:Mamm:1192,Tamias minimus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40230698,-114.624485,2771,adult,ectoparasite,ectoparasite, ,1, 
+33406566,UNCG:Mamm:1164,Perognathus parvus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40227496,-114.62427,2766,adult,ectoparasite,,ectoparasite  ,,0
+33406549,UNCG:Mamm:1161,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40227798,-114.624192,2769,adult,ectoparasite,ectoparasite, ,1, 
+33406583,UNCG:Mamm:1188,Callospermophilus lateralis,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40227999,-114.624191,2451,adult,ectoparasite,ectoparasite, ,1, 
+33406576,UNCG:Mamm:1183,Microtus longicaudus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40037596,-114.623656,2702,adult,ectoparasite,ectoparasite, ,1, 
+33406580,UNCG:Mamm:1186,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.40043103,-114.623651,2681,adult,ectoparasite,ectoparasite, ,1, 
+33406600,UNCG:Mamm:3193,Microtus montanus,USA,Nevada,"Humboldt-Toiyabe National Forest, 2.75 km WSW North Schell Peak, Timber Creek",39.400254,-114.623544,2699,adult,ectoparasite,,ectoparasite  ,,0
