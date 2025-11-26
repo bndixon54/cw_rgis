@@ -206,3 +206,4 @@ ggplot() +
 
 
 #if I wanted to test this for effect of temperature on overall species richness, could I easily do that without building 27 individual dataframes for each species, and then adding each of them to the data category in the glm??? I think that could potentially show a slightly more significant relationship. Same with ectoparasites, but I am still struggling to understand how I would need to code that  to make it all work within this framework. 
+
